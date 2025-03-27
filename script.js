@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     const botaoDeAcessibilidade = document.getElementsByClassName ('botao-acessibilidade');
-    const botaoDeAcessibilidade = document.getElementsByClassName ('apresenta-lista');
+    const opcoesDeAcessibilidadeDeAcessibilidade = document.getElementsByClassName ('apresenta-lista');
 
     botaoDeAcessibilidade.addEventListener ('click', function () {
       botaoDeAcessibilidade.classlist.toggle ('rotacao-botao');
